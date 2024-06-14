@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DoggyFotos</title>
+    <link rel="shortcut icon" href="resources/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/htmlString.js"></script>
+    <script src="assets/js/script.js"></script>
+  </head>
+  <body onload="render()">
+    <div id="limiter">
+      <header>
+        <div class="headerLeft">
+          <img src="resources/img/8L9t9R-LogoMakr.png" class="logoBig" alt="">
+          <img src="resources/img/4l4kn7-LogoMakr.png" class="logoSmall" alt="">
+          <input type="search" name="" id="">
+        </div>
+        <div class="headerRight">
+          <ul>
+            <li class="button">
+              <img class="icon" src="resources/icons/magnifying-glass-solid_blue.svg" alt="">
+              <div class="hoverEffect"></div>
+            <li class="button">
+              <img class="icon" src="resources/icons/download-solid.svg" alt="">
+              <p>Herunterladen</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/circle-question-regular.svg" alt="">
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/gears-solid.svg" alt="">
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/braille-solid.svg" alt="">
+              <div class="hoverEffect"></div>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <aside>
+        <nav class="asideContainer">
+          <ul>
+            <li class="button">
+              <img class="icon" src="resources/icons/image-regular.svg" alt="">
+              <p>Fotos</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/magnifying-glass-solid_blue.svg" alt="">
+              <p>Erkunden</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/square-share-nodes-solid.svg" alt="">
+              <p>Teilen</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/shop-solid.svg" alt="">
+              <p>Fotodruckpartner</p>
+              <div class="hoverEffect"></div>
+            </li>
+          </ul>
+        </nav>
+        <div class="asideContainer">
+          <ul>
+            <li class="button">
+              <img class="icon" src="resources/icons/heart-regular.svg" alt="">
+              <p>Favoriten</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/book-bookmark-solid.svg" alt="">
+              <p>Alben</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/layer-group-solid.svg" alt="">
+              <p>Verwalten</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/box-open-solid.svg" alt="">
+              <p>Archiv</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/door-closed-solid.svg" alt="">
+              <p>Gesperrter Ordner</p>
+              <div class="hoverEffect"></div>
+            </li>
+            <li class="button">
+              <img class="icon" src="resources/icons/trash-can-solid.svg" alt="">
+              <p>Papierkorb</p>
+              <div class="hoverEffect"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="asideContainer">
+          <ul>
+            <li class="button">
+              <img class="icon" src="resources/icons/cloud-solid.svg" alt="">
+              <p>Cloud Speicher</p>
+              <div class="hoverEffect"></div>
+            </li>
+          </ul>
+          <div class="cloudStorage">
+            <div class="useCloudStorage"></div>
+          </div>
+          <p>9,5 MB von 50MB</p>   
+        </div>
+      </aside>
+      <div id="gallery"></div>
+      <footer>
+        <div>
+          <p>© Jan Holtschke</p>
+        </div>
+      </footer>
+      <div id="fullSize" class="bigScreen d-none"></div>
+    </div>
+  </body>
+</html>
